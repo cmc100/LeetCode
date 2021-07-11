@@ -28,5 +28,9 @@
     <None Remove="System.Reactive.Core" />
     <None Remove="System.Reactive.Linq" />
     <None Remove="System.Reactive.Interfaces" />
+    <None Remove="Arrays\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Array\" />
   </ItemGroup>
 </Project>
