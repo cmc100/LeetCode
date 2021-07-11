@@ -43,7 +43,7 @@ namespace LeetCode
 
                 lookup.Add(nums[i], i);
             }
-            return Array.Empty<int>();
+            return System.Array.Empty<int>();
         }
     }
 }

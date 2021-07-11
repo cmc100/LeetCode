@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using Xunit;
 namespace LeetCode.Array
 {
+    /// <summary>
+    /// https://leetcode.com/problems/contains-duplicate/
+    /// </summary>
     public class ContainsDuplicateTests
     {
         [Theory]
@@ -15,6 +18,9 @@ namespace LeetCode.Array
         }
     }
 
+    /// <summary>
+    /// Walks list only 1 time. Use HashSet for a quick lookup.
+    /// </summary>
     public class ContainsDuplicateAnswer
     {
         public static bool ContainsDuplicate(int[] nums)
