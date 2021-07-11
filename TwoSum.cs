@@ -24,9 +24,9 @@ namespace LeetCode
     }
 
     /// <summary>
-    /// My O(N) solution walks the list once, adding each to a dict (as the KEY).
-    /// For each item, we check the dict for the matching 'needed' item
-    /// ...if it's there, just grab the index which was stored as the dict value.
+    /// Walks the list 1 time, while adding each number/index into a dictionary.
+    /// For each item, check the dict for a "match", (the number that will sum
+    /// to the target)
     /// </summary>
     public class TwoSumAnswer
     {
